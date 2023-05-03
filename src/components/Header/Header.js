@@ -17,7 +17,7 @@ export const Header = () => {
     <header className='header'>
 
       <div className='header__logo'>
-        <h3>PokeZone</h3>
+        <h3>PokeApi</h3>
       </div>
 
       <nav className='header__nav'>

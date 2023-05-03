@@ -19,8 +19,8 @@
   animation: crecer 300ms;
   position: relative;
 
-  border: 0.1rem solid #1b1b1f;
-  background: #1b1b1f;
+  border: 0.1rem solid #15156e;
+  background: #545657b4;
 }
 .contenedor-tarjeta:hover{
   border: 0.1rem solid var(--secondary);
@@ -84,7 +84,6 @@
 }
 
 
-
 /* TARJETA CAJA 2 /////////////////////*/
 .tarjeta__caja2{
   /* background: crimson; */
@@ -112,8 +111,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* ///////////////////////// */
-/* ///////////////////////// */
+
 /* ICONO DRAG */
 .icono-drag{
   position: absolute;
@@ -143,11 +141,6 @@
 .tarjeta-borde-negro{
   border: 0.1rem solid #16161a !important;
 }
-
-
-/* ///////////////////////// */
-/* ///////////////////////// */
-/* ///////////////////////// */
 
 @media (min-width: 480px) {
   .tarjeta__nombre{

@@ -13,7 +13,6 @@ import { Tarjeta } from './Tarjeta/Tarjeta';
 /* i18n - IMPORTAR USE TRANSLATION */
 import { useTranslation } from 'react-i18next'
 
-//////////////////////////////////////////////////
 export const Pokemon = ({idPokemon, cargando, setCargando, pokemon, setPokemon, idioma}) => {
 
   /* i18n */
@@ -67,8 +66,6 @@ export const Pokemon = ({idPokemon, cargando, setCargando, pokemon, setPokemon, 
     pokemon.id && setFavorito(comprobarSiEsFavorito(pokemon.id))
 
   }, [pokemon])
-
-
 
   if (pokemon !== null && Object.keys(pokemon).length !== 0 && pokemon !== undefined) {
     
